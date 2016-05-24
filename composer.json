@@ -1,0 +1,22 @@
+{
+  "name": "jamset/tasks-inspector",
+  "description": "Module allowing to handle DTO with execution results and make some needed action based on it",
+  "require": {
+    "php": ">=5.5.9",
+    "jamset/phpmailer-adapter": "dev-master",
+    "monolog/monolog": "^1.19"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jam Set",
+      "email": "jamset@joinger.org"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "TasksInspector\\": "src/"
+    }
+  }
+}
